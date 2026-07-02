@@ -51,40 +51,26 @@
         </div>
     </header>
 
+    <!-- SERVICIOS DINÁMICOS -->
     <section id="servicios">
         <h2>Nuestros Servicios</h2>
+
         <p class="section-text">
             Catálogo digital de servicios orientado a mejorar la experiencia de las clientas
-            y preparar la futura integración con un backend multicloud.
+            y conectado directamente con Supabase.
         </p>
 
-        <div class="cards">
-            <div class="card">
-                <h3>🧖‍♀️ Limpieza Facial</h3>
-                <p>Tratamiento especializado para mantener una piel sana, limpia y luminosa.</p>
-            </div>
-
-            <div class="card">
-                <h3>👁️ Lifting de Pestañas</h3>
-                <p>Realza la mirada de forma natural, estética y duradera.</p>
-            </div>
-
-            <div class="card">
-                <h3>💆‍♀️ Masajes Relajantes</h3>
-                <p>Experiencia de bienestar orientada al equilibrio físico y emocional.</p>
-            </div>
-
-            <div class="card">
-                <h3>🌸 Evaluación Facial</h3>
-                <p>Diagnóstico personalizado para definir tratamientos adecuados.</p>
-            </div>
+        <div class="cards" id="contenedor-servicios">
+            <!-- Aquí JavaScript insertará las tarjetas -->
         </div>
     </section>
 
+    <!-- BENEFICIOS -->
     <section id="beneficios">
         <h2>¿Por qué APYH Beauty Cloud?</h2>
-        
+
         <div class="cards">
+
             <div class="card">
                 <h3>📅 Gestión de Reservas</h3>
                 <p>Permite administrar citas, horarios y solicitudes de atención.</p>
@@ -104,6 +90,7 @@
                 <h3>🔒 Seguridad</h3>
                 <p>Preparado para una futura gestión segura de datos y formularios.</p>
             </div>
+
         </div>
     </section>
 
@@ -131,8 +118,9 @@
 
     <section id="monitor" class="monitor">
         <h2>Estado de la Plataforma</h2>
+
         <p class="section-text">
-            Consola inicial de monitoreo preparada para conectarse a una API en una futura nube.
+            Consola inicial de monitoreo preparada para conectarse a una API en la nube.
         </p>
 
         <div class="status">
@@ -145,17 +133,34 @@
 
     <section id="contacto" class="contacto">
         <h2>Formulario de Contacto</h2>
+
         <p class="section-text">
-            Este formulario valida los campos con JavaScript y simula el envío de datos,
-            preparando la futura integración con un backend.
+            Este formulario valida los campos con JavaScript y se conecta con el backend.
         </p>
 
         <form id="formulario">
-            <input type="text" id="nombre" placeholder="Nombre completo" required>
-            <input type="email" id="correo" placeholder="Correo electrónico" required>
-            <textarea id="mensaje" placeholder="Mensaje o consulta" required></textarea>
 
-            <button type="submit">Enviar Consulta</button>
+            <input
+                type="text"
+                id="nombre"
+                placeholder="Nombre completo"
+                required>
+
+            <input
+                type="email"
+                id="correo"
+                placeholder="Correo electrónico"
+                required>
+
+            <textarea
+                id="mensaje"
+                placeholder="Mensaje o consulta"
+                required></textarea>
+
+            <button type="submit">
+                Enviar Consulta
+            </button>
+
         </form>
     </section>
 
@@ -164,5 +169,6 @@
     </footer>
 
     <script src="script.js"></script>
+
 </body>
 </html>
